@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>🏡</title>
+<title>蓝桥 最大降雨量 | 🏡</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,8 +18,13 @@
 
 
 
-    <meta name="description" content="Less Is More">
-    
+    <meta name="description" content="
+
+
+降雨量的最大值取决于7周中的中位数。则中位数确定在第四周。
+从中尉数的概念可以理解，每一周的前三天是任意数字，只要满足后四天数字大于前三天即可。
+前三周的后四天数字是否要去考虑呢?不需要。因为所求数字已经确定在第四周，前面三周的情况则..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -89,32 +94,32 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://naughtybao.github.io/post/lan-qiao-zui-da-jiang-yu-liang/">
-                  <h2 class="post-title">蓝桥 最大降雨量</h2>
-                </a>
-                <div class="post-date">
-                  2020-02-27
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
+          <div class="post-detail">
+            <h2 class="post-title">蓝桥 最大降雨量</h2>
+            <div class="post-date">2020-02-27</div>
+            
+              <div class="feature-container" style="background-image: url('https://naughtybao.github.io/post-images/lan-qiao-zui-da-jiang-yu-liang.jpg')">
               </div>
-              
-                <a class="right" href="https://naughtybao.github.io/post/lan-qiao-zui-da-jiang-yu-liang/">
-                  <div class="feature-container" style="background-image: url('https://naughtybao.github.io/post-images/lan-qiao-zui-da-jiang-yu-liang.jpg')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            
+            <div class="post-content" v-pre>
+              <p><img src="https://naughtybao.github.io/post-images/1582785930511.png" alt="" loading="lazy"><br>
+<img src="https://naughtybao.github.io/post-images/1582785921644.png" alt="" loading="lazy"></p>
+<ul>
+<li>降雨量的最大值取决于7周中的中位数。则中位数确定在第四周。</li>
+<li>从中尉数的概念可以理解，每一周的前三天是任意数字，只要满足后四天数字大于前三天即可。</li>
+<li>前三周的后四天数字是否要去考虑呢?不需要。因为所求数字已经确定在第四周，前面三周的情况则不用去管。只需要处理后后三周即可。</li>
+<li>前三周后四天是否存在比x大的数字呢？不存在，因为x要是7周中位数的中位数，而这个中位数还要是所有情况中的最大值。</li>
+<li>则后面三周的中位数及其后面的数字都要大于x,即后面第5，6，7周从第四天到第七天的数字都要大于x。再加上第4周后面三天，合计共15天。</li>
+<li>则x应为49-15=34。</li>
+</ul>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+            
+
+            
+
+          </div>
 
         </div>
       </div>
